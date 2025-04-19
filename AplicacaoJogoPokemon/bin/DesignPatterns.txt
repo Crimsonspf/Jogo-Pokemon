@@ -1,0 +1,15 @@
+Strategy 
+	Os itens (Poção, Berry, Band) são craidos para mudar o ataque e a defesa do jogador. O jogador usa um item, e isso muda seus atributos de acordo com o item, sem mexer no codigo principal.
+  
+
+Composite
+	Tanto a carta Pokemon individual quanto o Deck têm características (HP, ataque) e podem ser usados da mesma forma no jogo.
+
+Factory
+	Cria diferentes tipos de Pokémon, a "fábrica" de Pokémon recebe um pedido (tipo de Pokémon) e entrega o Pokémon pronto.
+
+Facade
+	Facilita a criação de jogadores e cartas, escondendo a complexidade por trás dessa fachada.
+
+Singleton
+	Garante que só exista uma instância da Facade de Pokémon.
